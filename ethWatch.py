@@ -70,7 +70,7 @@ while (restartCounter <15):
         time.sleep(5)
         output = nvidiaSMI.communicate()
         
-        # Get Power Readings
+        # Get Power Readings_
         powerRegex = re.compile(r'\S*(?=\sW\\r\\n\s+Power Limit)')
         currentPower = 'No power output match'
         matchPower = powerRegex.search(str(output[0]))
