@@ -73,7 +73,7 @@ if is_admin():
             i = i + 1
             #Get Last Line of the output file
             lastLine = readLastLine(ethminerLogName, 'r')
-            print(lastLine, end="")
+            # print(lastLine, end="")
             
             #Get the current Time
             timeRegex = re.compile(r'\S+(?=\|)')

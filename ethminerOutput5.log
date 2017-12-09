@@ -26308,3 +26308,584 @@ CUDA error in func 'ethash_cuda_miner::init' at line 245 : out of memory.
  cu  11:52:46|CUDA0     Using device: GeForce GTX 1060 6GB  (Compute 6.1)
 CUDA error in func 'ethash_cuda_miner::init' at line 245 : out of memory.
 Cuda error in func 'run_ethash_search' at line 60 : out of memory.
+ cu  12:07:20|main      Using grid size 8192 , block size 128
+ cu  12:07:20|main      Found suitable CUDA device [ GeForce GTX 1060 6GB ] with 6442450944  bytes of GPU memory
+  i  12:07:20|main      Connecting to stratum server us1.ethermine.org:4444
+  i  12:07:20|stratum   Connected to stratum server us1.ethermine.org : 4444
+  i  12:07:20|stratum   Starting farm
+  i  12:07:20|stratum   Subscribed to stratum server
+  i  12:07:20|stratum   Authorized worker 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER
+  i  12:07:20|stratum   Received new job #f8d8139a
+  i  12:07:20|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  i  12:07:20|CUDA0     Initialising miner...
+  m  12:07:21|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+ cu  12:07:22|CUDA0     Using device: GeForce GTX 1060 6GB  (Compute 6.1)
+  m  12:07:22|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:07:23|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:07:24|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:07:25|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:07:26|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:07:27|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:07:28|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+CUDA error in func 'ethash_cuda_miner::init' at line 245 : out of memory.
+  m  12:07:29|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:07:32|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+ cu  12:08:44|main      Using grid size 8192 , block size 128
+ cu  12:08:44|main      Found suitable CUDA device [ GeForce GTX 1060 6GB ] with 6442450944  bytes of GPU memory
+  i  12:08:44|main      Connecting to stratum server us1.ethermine.org:4444
+  i  12:08:44|stratum   Connected to stratum server us1.ethermine.org : 4444
+  i  12:08:44|stratum   Starting farm
+  i  12:08:44|stratum   Subscribed to stratum server
+  i  12:08:44|stratum   Authorized worker 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER
+  i  12:08:44|stratum   Received new job #1394a67a
+  i  12:08:44|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  i  12:08:44|CUDA0     Initialising miner...
+  m  12:08:45|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+ cu  12:08:46|CUDA0     Using device: GeForce GTX 1060 6GB  (Compute 6.1)
+  m  12:08:46|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:08:47|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:08:48|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  i  12:08:49|stratum   Received new job #d2dc12c2
+ cu  12:15:22|main      Using grid size 8192 , block size 128
+ cu  12:15:22|main      Found suitable CUDA device [ GeForce GTX 1060 6GB ] with 6442450944  bytes of GPU memory
+  i  12:15:22|main      Connecting to stratum server us1.ethermine.org:4444
+  i  12:15:22|stratum   Connected to stratum server us1.ethermine.org : 4444
+  i  12:15:22|stratum   Starting farm
+  i  12:15:22|stratum   Subscribed to stratum server
+  i  12:15:22|stratum   Authorized worker 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER
+  i  12:15:22|stratum   Received new job #1e1e545c
+  i  12:15:22|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  i  12:15:22|CUDA0     Initialising miner...
+  m  12:15:23|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+ cu  12:15:23|CUDA0     Using device: GeForce GTX 1060 6GB  (Compute 6.1)
+  m  12:15:24|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:15:25|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:15:26|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:15:27|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:15:28|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:15:29|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:15:30|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+ cu  12:15:31|CUDA0     Generating DAG for GPU # 4
+  m  12:15:31|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+CUDA#4: 0%
+CUDA#4: 3%
+  m  12:15:32|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+CUDA#4: 6%
+CUDA#4: 8%
+CUDA#4: 11%
+  m  12:15:33|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+CUDA#4: 14%
+CUDA#4: 17%
+CUDA#4: 19%
+  m  12:15:34|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+CUDA#4: 22%
+CUDA#4: 25%
+CUDA#4: 28%
+  m  12:15:35|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  i  12:15:35|stratum   Received new job #b41d5972
+CUDA#4: 31%
+CUDA#4: 33%
+CUDA#4: 36%
+CUDA#4: 39%
+CUDA#4: 42%
+CUDA#4: 44%
+CUDA#4: 47%
+CUDA#4: 50%
+CUDA#4: 53%
+CUDA#4: 56%
+CUDA#4: 58%
+ cu  12:18:27|main      Using grid size 8192 , block size 128
+ cu  12:18:27|main      Found suitable CUDA device [ GeForce GTX 1050 Ti ] with 4294967296  bytes of GPU memory
+  i  12:18:27|main      Connecting to stratum server us1.ethermine.org:4444
+  i  12:18:27|stratum   Connected to stratum server us1.ethermine.org : 4444
+  i  12:18:27|stratum   Starting farm
+  i  12:18:27|stratum   Subscribed to stratum server
+  i  12:18:27|stratum   Authorized worker 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER
+  i  12:18:27|stratum   Received new job #a57e705f
+  i  12:18:27|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  i  12:18:27|CUDA0     Initialising miner...
+  i  12:18:28|stratum   Received new job #b9471e83
+ cu  12:18:29|CUDA0     Using device: GeForce GTX 1050 Ti  (Compute 6.1)
+CUDA error in func 'ethash_cuda_miner::init' at line 245 : out of memory.
+Cuda error in func 'run_ethash_search' at line 60 : out of memory.
+ cu  12:31:41|main      Using grid size 8192 , block size 128
+ cu  12:31:41|main      Found suitable CUDA device [ GeForce GTX 1050 Ti ] with 4294967296  bytes of GPU memory
+  i  12:31:41|main      Connecting to stratum server us1.ethermine.org:4444
+  i  12:31:41|stratum   Connected to stratum server us1.ethermine.org : 4444
+  i  12:31:41|stratum   Starting farm
+  i  12:31:41|stratum   Subscribed to stratum server
+  i  12:31:41|stratum   Authorized worker 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER
+  i  12:31:41|stratum   Received new job #e5f186ee
+  i  12:31:41|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  i  12:31:41|CUDA0     Initialising miner...
+  i  12:31:42|stratum   Received new job #1ed7b561
+ cu  12:31:43|CUDA0     Using device: GeForce GTX 1050 Ti  (Compute 6.1)
+ cu  12:31:43|CUDA0     Generating DAG for GPU # 5
+CUDA#5: 0%
+CUDA#5: 3%
+CUDA#5: 6%
+CUDA#5: 8%
+CUDA#5: 11%
+CUDA#5: 14%
+CUDA#5: 17%
+CUDA#5: 19%
+CUDA#5: 22%
+CUDA#5: 25%
+CUDA#5: 28%
+CUDA#5: 31%
+CUDA#5: 33%
+CUDA#5: 36%
+CUDA#5: 39%
+CUDA#5: 42%
+CUDA#5: 44%
+CUDA#5: 47%
+CUDA#5: 50%
+CUDA#5: 53%
+CUDA#5: 56%
+CUDA#5: 58%
+CUDA#5: 61%
+CUDA#5: 64%
+CUDA#5: 67%
+CUDA#5: 69%
+CUDA#5: 72%
+CUDA#5: 75%
+CUDA#5: 78%
+CUDA#5: 81%
+CUDA#5: 83%
+CUDA#5: 86%
+CUDA#5: 89%
+CUDA#5: 92%
+CUDA#5: 94%
+CUDA#5: 97%
+  i  12:32:00|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:32:00|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  i  12:32:00|stratum   Received new job #5cb0287e
+  i  12:32:00|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  i  12:32:00|stratum   Received new job #d9227f69
+  i  12:32:01|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:32:01|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:02|main      Speed  12.46 Mh/s    gpu/0 12.46  [A0+0:R0+0:F0] Time: 00:00
+  i  12:32:03|stratum   Received new job #55834c86
+  i  12:32:03|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:32:03|main      Speed  12.51 Mh/s    gpu/0 12.51  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:04|main      Speed  12.54 Mh/s    gpu/0 12.54  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:05|main      Speed  13.01 Mh/s    gpu/0 13.01  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:06|main      Speed  13.31 Mh/s    gpu/0 13.31  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:07|main      Speed  13.52 Mh/s    gpu/0 13.52  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:08|main      Speed  13.68 Mh/s    gpu/0 13.68  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:09|main      Speed  13.80 Mh/s    gpu/0 13.80  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:10|main      Speed  13.89 Mh/s    gpu/0 13.89  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:11|main      Speed  13.85 Mh/s    gpu/0 13.85  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:12|main      Speed  14.06 Mh/s    gpu/0 14.06  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:13|main      Speed  14.11 Mh/s    gpu/0 14.11  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:14|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:15|main      Speed  14.49 Mh/s    gpu/0 14.49  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:16|main      Speed  14.49 Mh/s    gpu/0 14.49  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:17|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:18|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:19|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:20|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:21|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:22|main      Speed  14.49 Mh/s    gpu/0 14.49  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:23|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:24|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:25|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:26|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:27|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:28|main      Speed  14.49 Mh/s    gpu/0 14.49  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:29|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:30|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:31|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:32|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:33|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:34|main      Speed  14.49 Mh/s    gpu/0 14.49  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:35|main      Speed  14.49 Mh/s    gpu/0 14.49  [A0+0:R0+0:F0] Time: 00:00
+  i  12:32:36|stratum   Received new job #b066cb60
+  i  12:32:37|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:32:37|main      Speed  14.39 Mh/s    gpu/0 14.39  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:38|main      Speed  14.06 Mh/s    gpu/0 14.06  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:39|main      Speed  13.85 Mh/s    gpu/0 13.85  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:40|main      Speed  14.06 Mh/s    gpu/0 14.06  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:41|main      Speed  14.06 Mh/s    gpu/0 14.06  [A0+0:R0+0:F0] Time: 00:00
+  m  12:32:42|main      Speed  14.06 Mh/s    gpu/0 14.06  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:43|main      Speed  14.06 Mh/s    gpu/0 14.06  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:44|main      Speed  14.06 Mh/s    gpu/0 14.06  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:45|main      Speed  13.85 Mh/s    gpu/0 13.85  [A0+0:R0+0:F0] Time: 00:01
+  i  12:32:45|stratum   Received new job #14ca5e75
+  i  12:32:45|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:32:46|main      Speed  13.64 Mh/s    gpu/0 13.64  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:47|main      Speed  13.64 Mh/s    gpu/0 13.64  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:48|main      Speed  13.60 Mh/s    gpu/0 13.60  [A0+0:R0+0:F0] Time: 00:01
+  i  12:32:49|stratum   Received new job #443ad63f
+  i  12:32:49|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:32:49|main      Speed  14.09 Mh/s    gpu/0 14.09  [A0+0:R0+0:F0] Time: 00:01
+  i  12:32:50|stratum   Received new job #47376138
+  i  12:32:50|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:32:50|main      Speed  13.57 Mh/s    gpu/0 13.57  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:51|main      Speed  13.22 Mh/s    gpu/0 13.22  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:52|main      Speed  13.21 Mh/s    gpu/0 13.21  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:53|main      Speed  13.21 Mh/s    gpu/0 13.21  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:54|main      Speed  13.21 Mh/s    gpu/0 13.21  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:55|main      Speed  13.42 Mh/s    gpu/0 13.42  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:56|main      Speed  13.42 Mh/s    gpu/0 13.42  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:57|main      Speed  13.54 Mh/s    gpu/0 13.54  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:58|main      Speed  13.73 Mh/s    gpu/0 13.73  [A0+0:R0+0:F0] Time: 00:01
+  m  12:32:59|main      Speed  13.73 Mh/s    gpu/0 13.73  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:00|main      Speed  13.73 Mh/s    gpu/0 13.73  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:01|main      Speed  13.77 Mh/s    gpu/0 13.77  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:02|main      Speed  14.16 Mh/s    gpu/0 14.16  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:03|main      Speed  14.19 Mh/s    gpu/0 14.19  [A0+0:R0+0:F0] Time: 00:01
+  i  12:33:04|stratum   Received new job #de1afab2
+  i  12:33:04|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:33:04|main      Speed  14.37 Mh/s    gpu/0 14.37  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:05|main      Speed  14.34 Mh/s    gpu/0 14.34  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:06|main      Speed  14.34 Mh/s    gpu/0 14.34  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:07|main      Speed  14.34 Mh/s    gpu/0 14.34  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:08|main      Speed  14.34 Mh/s    gpu/0 14.34  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:09|main      Speed  14.52 Mh/s    gpu/0 14.52  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:10|main      Speed  14.52 Mh/s    gpu/0 14.52  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:11|main      Speed  14.52 Mh/s    gpu/0 14.52  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:12|main      Speed  14.34 Mh/s    gpu/0 14.34  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:13|main      Speed  14.36 Mh/s    gpu/0 14.36  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:14|main      Speed  14.34 Mh/s    gpu/0 14.34  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:15|main      Speed  14.35 Mh/s    gpu/0 14.35  [A0+0:R0+0:F0] Time: 00:01
+  i  12:33:16|stratum   Received new job #f7311e70
+  i  12:33:16|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  12:33:16|main      Speed  14.47 Mh/s    gpu/0 14.47  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:17|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:18|main      Speed  14.30 Mh/s    gpu/0 14.30  [A0+0:R0+0:F0] Time: 00:01
+  m  12:33:19|main      Speed  14.11 Mh/s    gpu/0 14.11  [A0+0:R0+0:F0] Time: 00:01
+ cu  13:54:51|main      Using grid size 8192 , block size 128
+ cu  13:54:51|main      Found suitable CUDA device [ GeForce GTX 1060 6GB ] with 6442450944  bytes of GPU memory
+  i  13:54:51|main      Connecting to stratum server us1.ethermine.org:4444
+  i  13:54:51|stratum   Connected to stratum server us1.ethermine.org : 4444
+  i  13:54:51|stratum   Starting farm
+  i  13:54:51|stratum   Subscribed to stratum server
+  i  13:54:51|stratum   Authorized worker 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER
+  i  13:54:51|stratum   Received new job #95693e5c
+  i  13:54:51|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  i  13:54:51|CUDA0     Initialising miner...
+  m  13:54:52|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+ cu  13:54:53|CUDA0     Using device: GeForce GTX 1060 6GB  (Compute 6.1)
+ cu  13:54:53|CUDA0     Generating DAG for GPU # 5
+  m  13:54:53|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+CUDA#5: 0%
+CUDA#5: 3%
+CUDA#5: 6%
+  m  13:54:54|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+CUDA#5: 8%
+CUDA#5: 11%
+CUDA#5: 14%
+CUDA#5: 17%
+  m  13:54:55|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+CUDA#5: 19%
+CUDA#5: 22%
+  i  13:54:56|stratum   Received new job #3e940a07
+CUDA#5: 25%
+CUDA#5: 28%
+CUDA#5: 31%
+CUDA#5: 33%
+CUDA#5: 36%
+CUDA#5: 39%
+CUDA#5: 42%
+CUDA#5: 44%
+CUDA#5: 47%
+CUDA#5: 50%
+CUDA#5: 53%
+CUDA#5: 56%
+CUDA#5: 58%
+CUDA#5: 61%
+CUDA#5: 64%
+CUDA#5: 67%
+CUDA#5: 69%
+CUDA#5: 72%
+CUDA#5: 75%
+CUDA#5: 78%
+CUDA#5: 81%
+CUDA#5: 83%
+CUDA#5: 86%
+CUDA#5: 89%
+CUDA#5: 92%
+CUDA#5: 94%
+CUDA#5: 97%
+  i  13:55:04|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:04|main      Speed   0.00 Mh/s    gpu/0  0.00  [A0+0:R0+0:F0] Time: 00:00
+  i  13:55:04|stratum   Received new job #c18822b0
+  i  13:55:04|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:05|main      Speed  22.65 Mh/s    gpu/0 22.65  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:06|main      Speed  21.89 Mh/s    gpu/0 21.89  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:07|main      Speed  23.18 Mh/s    gpu/0 23.18  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:08|main      Speed  23.09 Mh/s    gpu/0 23.09  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:09|main      Speed  23.07 Mh/s    gpu/0 23.07  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:10|main      Speed  23.45 Mh/s    gpu/0 23.45  [A0+0:R0+0:F0] Time: 00:00
+  i  13:55:10|stratum   Received new job #6e6fae0b
+  i  13:55:10|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:11|main      Speed  23.41 Mh/s    gpu/0 23.41  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:12|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:13|main      Speed  23.33 Mh/s    gpu/0 23.33  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:14|main      Speed  23.30 Mh/s    gpu/0 23.30  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:15|main      Speed  23.32 Mh/s    gpu/0 23.32  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:16|main      Speed  23.68 Mh/s    gpu/0 23.68  [A0+0:R0+0:F0] Time: 00:00
+  i  13:55:16|stratum   Received new job #bc23a067
+  i  13:55:16|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:17|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:18|main      Speed  23.49 Mh/s    gpu/0 23.49  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:19|main      Speed  23.71 Mh/s    gpu/0 23.71  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:20|main      Speed  23.50 Mh/s    gpu/0 23.50  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:21|main      Speed  23.48 Mh/s    gpu/0 23.48  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:22|main      Speed  23.91 Mh/s    gpu/0 23.91  [A0+0:R0+0:F0] Time: 00:00
+  i  13:55:22|stratum   Received new job #81fa89a2
+  i  13:55:22|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:23|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:00
+  i  13:55:24|stratum   Received new job #8b7ef317
+  i  13:55:24|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:24|main      Speed  23.47 Mh/s    gpu/0 23.47  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:25|main      Speed  23.06 Mh/s    gpu/0 23.06  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:26|main      Speed  22.85 Mh/s    gpu/0 22.85  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:27|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:28|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:29|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:30|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:31|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:32|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:33|main      Speed  22.99 Mh/s    gpu/0 22.99  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:34|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:35|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:00
+  i  13:55:35|stratum   Received new job #5d426d2a
+  i  13:55:35|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:36|main      Speed  23.68 Mh/s    gpu/0 23.68  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:37|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:38|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:39|main      Speed  23.40 Mh/s    gpu/0 23.40  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:40|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:41|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:42|main      Speed  23.40 Mh/s    gpu/0 23.40  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:43|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:44|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:45|main      Speed  23.40 Mh/s    gpu/0 23.40  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:46|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:47|main      Speed  23.55 Mh/s    gpu/0 23.55  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:48|main      Speed  23.64 Mh/s    gpu/0 23.64  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:49|main      Speed  23.83 Mh/s    gpu/0 23.83  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:50|main      Speed  23.83 Mh/s    gpu/0 23.83  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:51|main      Speed  23.64 Mh/s    gpu/0 23.64  [A0+0:R0+0:F0] Time: 00:00
+  m  13:55:52|main      Speed  23.64 Mh/s    gpu/0 23.64  [A0+0:R0+0:F0] Time: 00:01
+  m  13:55:53|main      Speed  23.83 Mh/s    gpu/0 23.83  [A0+0:R0+0:F0] Time: 00:01
+  m  13:55:54|main      Speed  23.64 Mh/s    gpu/0 23.64  [A0+0:R0+0:F0] Time: 00:01
+  m  13:55:55|main      Speed  23.64 Mh/s    gpu/0 23.64  [A0+0:R0+0:F0] Time: 00:01
+  m  13:55:56|main      Speed  23.83 Mh/s    gpu/0 23.83  [A0+0:R0+0:F0] Time: 00:01
+  i  13:55:56|stratum   Received new job #767139cd
+  i  13:55:56|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:57|main      Speed  23.76 Mh/s    gpu/0 23.76  [A0+0:R0+0:F0] Time: 00:01
+  m  13:55:58|main      Speed  23.54 Mh/s    gpu/0 23.54  [A0+0:R0+0:F0] Time: 00:01
+  i  13:55:58|stratum   Received new job #033ca4b7
+  i  13:55:58|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:55:59|main      Speed  23.54 Mh/s    gpu/0 23.54  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:00|main      Speed  23.23 Mh/s    gpu/0 23.23  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:01|main      Speed  23.44 Mh/s    gpu/0 23.44  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:02|main      Speed  23.44 Mh/s    gpu/0 23.44  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:03|main      Speed  23.23 Mh/s    gpu/0 23.23  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:04|main      Speed  23.23 Mh/s    gpu/0 23.23  [A0+0:R0+0:F0] Time: 00:01
+  i  13:56:04|stratum   Received new job #99e91581
+  i  13:56:04|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:56:05|main      Speed  23.44 Mh/s    gpu/0 23.44  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:06|main      Speed  22.90 Mh/s    gpu/0 22.90  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:07|main      Speed  23.07 Mh/s    gpu/0 23.07  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:08|main      Speed  23.28 Mh/s    gpu/0 23.28  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:09|main      Speed  23.07 Mh/s    gpu/0 23.07  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:10|main      Speed  23.40 Mh/s    gpu/0 23.40  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:11|main      Speed  23.37 Mh/s    gpu/0 23.37  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:12|main      Speed  23.40 Mh/s    gpu/0 23.40  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:13|main      Speed  23.40 Mh/s    gpu/0 23.40  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:14|main      Speed  23.61 Mh/s    gpu/0 23.61  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:15|main      Speed  23.40 Mh/s    gpu/0 23.40  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:16|main      Speed  23.72 Mh/s    gpu/0 23.72  [A0+0:R0+0:F0] Time: 00:01
+  i  13:56:17|stratum   Received new job #b444af01
+  i  13:56:17|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:56:17|main      Speed  23.80 Mh/s    gpu/0 23.80  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:18|main      Speed  23.31 Mh/s    gpu/0 23.31  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:19|main      Speed  23.31 Mh/s    gpu/0 23.31  [A0+0:R0+0:F0] Time: 00:01
+  i  13:56:20|stratum   Received new job #e58bc014
+  i  13:56:20|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:56:20|main      Speed  23.25 Mh/s    gpu/0 23.25  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:21|main      Speed  22.90 Mh/s    gpu/0 22.90  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:22|main      Speed  23.09 Mh/s    gpu/0 23.09  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:23|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:24|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:25|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:26|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:27|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:28|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:29|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:30|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:31|main      Speed  23.51 Mh/s    gpu/0 23.51  [A0+0:R0+0:F0] Time: 00:01
+  i  13:56:32|stratum   Received new job #25d84871
+  i  13:56:32|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:56:32|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:33|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:34|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:35|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:36|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:01
+  i  13:56:37|stratum   Received new job #62c68ba5
+  i  13:56:37|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:56:37|main      Speed  23.44 Mh/s    gpu/0 23.44  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:38|main      Speed  23.01 Mh/s    gpu/0 23.01  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:39|main      Speed  23.22 Mh/s    gpu/0 23.22  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:40|main      Speed  23.22 Mh/s    gpu/0 23.22  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:41|main      Speed  23.01 Mh/s    gpu/0 23.01  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:42|main      Speed  23.25 Mh/s    gpu/0 23.25  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:43|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:44|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:45|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:46|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:47|main      Speed  23.59 Mh/s    gpu/0 23.59  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:48|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:49|main      Speed  23.84 Mh/s    gpu/0 23.84  [A0+0:R0+0:F0] Time: 00:01
+  m  13:56:50|main      Speed  23.65 Mh/s    gpu/0 23.65  [A0+0:R0+0:F0] Time: 00:01
+  i  13:56:51|stratum   Received new job #074adfe2
+  i  13:56:51|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:56:51|main      Speed  23.50 Mh/s    gpu/0 23.50  [A0+0:R0+0:F0] Time: 00:02
+  m  13:56:52|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:02
+  m  13:56:53|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:02
+  m  13:56:54|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:02
+  m  13:56:55|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:02
+  m  13:56:56|main      Speed  23.30 Mh/s    gpu/0 23.30  [A0+0:R0+0:F0] Time: 00:02
+  i  13:56:57|stratum   Received new job #54297010
+  i  13:56:57|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:56:57|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:02
+  m  13:56:58|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:02
+  m  13:56:59|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:01|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:02|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:03|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:04|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:05|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:06|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:07|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  i  13:57:07|stratum   Received new job #9d746874
+  m  13:57:08|main      Speed  23.47 Mh/s    gpu/0 23.47  [A0+0:R0+0:F0] Time: 00:02  i  13:57:08|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+
+  m  13:57:09|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:10|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:11|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:12|main      Speed  23.28 Mh/s    gpu/0 23.28  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:13|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:14|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:15|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:16|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  i  13:57:16|stratum   Received new job #9c0d0a45
+  i  13:57:16|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:57:17|main      Speed  23.08 Mh/s    gpu/0 23.08  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:18|main      Speed  22.88 Mh/s    gpu/0 22.88  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:19|main      Speed  22.85 Mh/s    gpu/0 22.85  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:20|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:21|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:22|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:23|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:24|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:25|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:26|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:27|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:28|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:29|main      Speed  23.60 Mh/s    gpu/0 23.60  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:30|main      Speed  23.78 Mh/s    gpu/0 23.78  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:31|main      Speed  23.78 Mh/s    gpu/0 23.78  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:32|main      Speed  23.60 Mh/s    gpu/0 23.60  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:33|main      Speed  23.78 Mh/s    gpu/0 23.78  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:34|main      Speed  23.78 Mh/s    gpu/0 23.78  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:35|main      Speed  23.60 Mh/s    gpu/0 23.60  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:36|main      Speed  23.78 Mh/s    gpu/0 23.78  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:37|main      Speed  23.78 Mh/s    gpu/0 23.78  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:38|main      Speed  23.60 Mh/s    gpu/0 23.60  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:39|main      Speed  23.60 Mh/s    gpu/0 23.60  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:40|main      Speed  23.78 Mh/s    gpu/0 23.78  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:41|main      Speed  23.78 Mh/s    gpu/0 23.78  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:42|main      Speed  23.61 Mh/s    gpu/0 23.61  [A0+0:R0+0:F0] Time: 00:02
+  i  13:57:42|stratum   Received new job #9f5d732e
+  i  13:57:43|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:57:43|main      Speed  23.83 Mh/s    gpu/0 23.83  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:44|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:45|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:46|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:02
+  i  13:57:46|stratum   Received new job #743f57a3
+  i  13:57:46|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:57:47|main      Speed  23.31 Mh/s    gpu/0 23.31  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:48|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:49|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:50|main      Speed  23.07 Mh/s    gpu/0 23.07  [A0+0:R0+0:F0] Time: 00:02
+  i  13:57:50|stratum   Received new job #0703dae3
+  i  13:57:50|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:57:51|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:02
+  m  13:57:52|main      Speed  22.87 Mh/s    gpu/0 22.87  [A0+0:R0+0:F0] Time: 00:03
+  m  13:57:53|main      Speed  22.64 Mh/s    gpu/0 22.64  [A0+0:R0+0:F0] Time: 00:03
+  m  13:57:54|main      Speed  22.91 Mh/s    gpu/0 22.91  [A0+0:R0+0:F0] Time: 00:03
+  m  13:57:55|main      Speed  23.27 Mh/s    gpu/0 23.27  [A0+0:R0+0:F0] Time: 00:03
+  i  13:57:55|stratum   Received new job #bbc0060e
+  i  13:57:55|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:57:56|main      Speed  22.85 Mh/s    gpu/0 22.85  [A0+0:R0+0:F0] Time: 00:03
+  m  13:57:57|main      Speed  22.86 Mh/s    gpu/0 22.86  [A0+0:R0+0:F0] Time: 00:03
+  m  13:57:58|main      Speed  22.88 Mh/s    gpu/0 22.88  [A0+0:R0+0:F0] Time: 00:03
+  m  13:57:59|main      Speed  22.90 Mh/s    gpu/0 22.90  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:00|main      Speed  23.10 Mh/s    gpu/0 23.10  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:01|main      Speed  23.02 Mh/s    gpu/0 23.02  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:02|main      Speed  23.28 Mh/s    gpu/0 23.28  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:03|main      Speed  23.44 Mh/s    gpu/0 23.44  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:04|main      Speed  23.48 Mh/s    gpu/0 23.48  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:05|main      Speed  23.25 Mh/s    gpu/0 23.25  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:06|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:07|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:03
+  i  13:58:07|stratum   Received new job #d1c8928d
+  i  13:58:08|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:58:08|main      Speed  23.76 Mh/s    gpu/0 23.76  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:09|main      Speed  23.46 Mh/s    gpu/0 23.46  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:10|main      Speed  23.45 Mh/s    gpu/0 23.45  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:11|main      Speed  23.28 Mh/s    gpu/0 23.28  [A0+0:R0+0:F0] Time: 00:03
+  i  13:58:12|stratum   Received new job #0294862c
+  i  13:58:12|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:58:12|main      Speed  23.50 Mh/s    gpu/0 23.50  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:13|main      Speed  22.88 Mh/s    gpu/0 22.88  [A0+0:R0+0:F0] Time: 00:03
+  i  13:58:14|stratum   Received new job #e57f84dd
+  i  13:58:14|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:58:14|main      Speed  23.06 Mh/s    gpu/0 23.06  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:15|main      Speed  22.66 Mh/s    gpu/0 22.66  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:16|main      Speed  22.47 Mh/s    gpu/0 22.47  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:17|main      Speed  22.67 Mh/s    gpu/0 22.67  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:18|main      Speed  22.66 Mh/s    gpu/0 22.66  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:19|main      Speed  22.60 Mh/s    gpu/0 22.60  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:20|main      Speed  22.89 Mh/s    gpu/0 22.89  [A0+0:R0+0:F0] Time: 00:03
+  i  13:58:20|stratum   Received new job #1769a0b2
+  i  13:58:20|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:58:21|main      Speed  22.98 Mh/s    gpu/0 22.98  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:22|main      Speed  22.61 Mh/s    gpu/0 22.61  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:23|main      Speed  22.79 Mh/s    gpu/0 22.79  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:24|main      Speed  23.24 Mh/s    gpu/0 23.24  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:25|main      Speed  23.04 Mh/s    gpu/0 23.04  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:26|main      Speed  23.23 Mh/s    gpu/0 23.23  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:27|main      Speed  23.57 Mh/s    gpu/0 23.57  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:28|main      Speed  23.57 Mh/s    gpu/0 23.57  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:29|main      Speed  23.39 Mh/s    gpu/0 23.39  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:30|main      Speed  23.57 Mh/s    gpu/0 23.57  [A0+0:R0+0:F0] Time: 00:03
+  i  13:58:30|stratum   Received new job #88725b01
+  i  13:58:30|CUDA0     set work; seed: #7b1e42ac, target: #0000000112e0
+  m  13:58:31|main      Speed  23.21 Mh/s    gpu/0 23.21  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:32|main      Speed  23.31 Mh/s    gpu/0 23.31  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:33|main      Speed  23.48 Mh/s    gpu/0 23.48  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:34|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:35|main      Speed  23.28 Mh/s    gpu/0 23.28  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:36|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:03
+  m  13:58:37|main      Speed  23.29 Mh/s    gpu/0 23.29  [A0+0:R0+0:F0] Time: 00:03
+  i  13:58:37|CUDA0     Solution found; Submitting to us1.ethermine.org ...
+  i  13:58:37|CUDA0       Nonce: 0x12015d7aaae58590
+  i  13:58:37|stratum   B-) Submitted and accepted. 
+  m  13:58:38|main      Speed  23.27 Mh/s    gpu/0 23.27  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:39|main      Speed  23.26 Mh/s    gpu/0 23.26  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:40|main      Speed  23.26 Mh/s    gpu/0 23.26  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:41|main      Speed  23.27 Mh/s    gpu/0 23.27  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:42|main      Speed  23.23 Mh/s    gpu/0 23.23  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:43|main      Speed  23.60 Mh/s    gpu/0 23.60  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:44|main      Speed  23.59 Mh/s    gpu/0 23.59  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:45|main      Speed  23.60 Mh/s    gpu/0 23.60  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:46|main      Speed  23.60 Mh/s    gpu/0 23.60  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:47|main      Speed  23.61 Mh/s    gpu/0 23.61  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:48|main      Speed  23.76 Mh/s    gpu/0 23.76  [A1+0:R0+0:F0] Time: 00:03
+  m  13:58:49|main      Speed  23.59 Mh/s    gpu/0 23.59  [A1+0:R0+0:F0] Time: 00:03
