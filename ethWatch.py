@@ -13,7 +13,7 @@ GPUIndex = sys.argv[1]
 powerLevel = sys.argv[3]
 memoryOffset = sys.argv[2]
         
-workingDir = "C:\\Users\Miner\ethWatchdog"
+workingDir = "C:\\Users\ADE\ethWatchdog"
 
 def executeSubprocess(commandString):
     args = shlex.split(commandString, posix=0)
@@ -41,20 +41,28 @@ if is_admin():
         ethminerLogName = f'{workingDir}\ethminerOutput{GPUIndex}.log'
 
         #Start Main Subprocess and write output to file
-        argString = shlex.split(f'C:\\Users\Miner\Downloads\Guru3D.com\\nvidiaInspector.exe -setMemoryClockOffset:{GPUIndex},0,{memoryOffset}', posix=0)
+        argString = shlex.split(f'C:\\Users\ADE\\Nvidia\\nvidiaInspector.exe -setMemoryClockOffset:{GPUIndex},0,{memoryOffset}', posix=0)
         nvidiaPower = subprocess.Popen(argString)
     
         
         nvidiaInspector = executeSubprocess(f'nvidia-smi -pl {powerLevel} -i {GPUIndex}')
         
-        arg = shlex.split(f'C:\program files\ethminer\ethminer.exe --farm-recheck 1000 -U --cuda-devices {GPUIndex} -M -S us1.ethermine.org:4444 -FS us2.ethermine.org:4444 -O 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER', posix=0)
+        arg = shlex.split(f'C:\\Users\ADE\ethminer.exe --farm-recheck 1000 -U --cuda-devices {GPUIndex} -M -S us1.ethermine.org:4444 -FS us2.ethermine.org:4444 -O 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER', posix=0)
         print(arg)
         ethminer = subprocess.Popen(arg, stderr=subprocess.STDOUT, stdout=open(ethminerLogName, 'a'))
+        
+        
         print('Subprocess Started')
+        
+        
+        # Kill unruly EXEs
+        time.sleep(3)
+        nvidiaInspector.terminate()
+        nvidiaPower.terminate()
 
 
         #Sleep while ethminer subprocess begins, impossible to access file before it is created
-        time.sleep(15)
+        time.sleep(10)
 
 
         #Monitor for Two Hours
@@ -83,10 +91,11 @@ if is_admin():
             
             #Get the current clock, and power settings
             nvidiaSMI = executeSubprocess(f'nvidia-smi -i {GPUIndex} -q')
-            time.sleep(5)
+            time.sleep(4)
             output = nvidiaSMI.communicate()
+            time.sleep(1)
             nvidiaSMI.terminate()
-            time.sleep(10)
+            
             
             # Get Power Readings_
             powerRegex = re.compile(r'\S*(?=\sW\\r\\n\s+Power Limit)')
@@ -114,12 +123,14 @@ if is_admin():
                 print(f'lastSpeed: {lastSpeed}')
                 print(f'Last Line: {lastLine}', end='')
                 print(f'previousLine: {previousLine}', end='')
-                if lastLine == previousLine or (currentSpeed == 'NA' and lastSpeed == 'NA'):
-                    print('Error restarting subprocess')
-                    break
-                else:
-                    previousLine = lastLine
-                    lastSpeed = currentSpeed
+                print(f'GPU: {GPUIndex}, ', end='')
+                if i > 10 and i % 2 == 0:
+                    if lastLine == previousLine or (currentSpeed == 'NA' and lastSpeed == 'NA'):
+                        print('Error restarting subprocess')
+                        break
+                    else:
+                        previousLine = lastLine
+                        lastSpeed = currentSpeed
 
 
             print(f'Clock: {currentClock}, Memory: {currentMemory}, Power: {currentPower}, Restarts: {restartCounter}\n')
@@ -131,4 +142,4 @@ if is_admin():
 
 else:
     # Re-run the program with admin rights
-    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, f'C:\\Users\Miner\ethWatchdog\ethWatch.py {GPUIndex} {memoryOffset} {powerLevel}', None, 1)
+    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, f'C:\\Users\ADE\ethWatchdog\ethWatch.py {GPUIndex} {memoryOffset} {powerLevel}', None, 1)
