@@ -7,13 +7,19 @@ import shlex
 import time
 import re
 import ctypes
+import requests
 
 #Config Values
-GPUIndex = sys.argv[1]
-powerLevel = sys.argv[3]
+GPUList = sys.argv[1]
+GPUIndex = GPUList[0]
 memoryOffset = sys.argv[2]
-        
+print(f'GPUList: {GPUList}')       
 workingDir = "C:\\Users\ADE\ethWatchdog"
+api_base = 'https://api.ethermine.org'
+miner = '0xA61DA3437F3e861ED245F8A869E478c8eb7a03Ac'
+worker = 'MINER'
+
+
 
 def executeSubprocess(commandString):
     args = shlex.split(commandString, posix=0)
@@ -34,20 +40,22 @@ def is_admin():
         return False
 
 if is_admin(): 
-
+    GPUList = GPUList.replace(',',' ')
+    print(f'GPULIST: {GPUList}')
     restartCounter = 0
     while (restartCounter <100):
-
+        powerLevel = readLastLine(f'{workingDir}\powerLevel.config', 'r')
+        print(f'Power Level: {powerLevel}')
         ethminerLogName = f'{workingDir}\ethminerOutput{GPUIndex}.log'
 
         #Start Main Subprocess and write output to file
         argString = shlex.split(f'C:\\Users\ADE\\Nvidia\\nvidiaInspector.exe -setMemoryClockOffset:{GPUIndex},0,{memoryOffset}', posix=0)
-        nvidiaPower = subprocess.Popen(argString)
+        nvidiaInspector = subprocess.Popen(argString)
     
         
-        nvidiaInspector = executeSubprocess(f'nvidia-smi -pl {powerLevel} -i {GPUIndex}')
+        nvidiaPower = executeSubprocess(f'nvidia-smi -pl {powerLevel} -i {GPUIndex}')
         
-        arg = shlex.split(f'C:\\Users\ADE\ethminer.exe --farm-recheck 1000 -U --cuda-devices {GPUIndex} -M -S us1.ethermine.org:4444 -FS us2.ethermine.org:4444 -O 0x742a902f4a6c6aa1f59a4ef0b7d72fec6717f207.MINER', posix=0)
+        arg = shlex.split(f'C:\\Users\ADE\ethminer.exe --farm-recheck 200 -U --cuda-devices {GPUList} -M -S us1.ethermine.org:4444 -FS us2.ethermine.org:4444 -O 0xA61DA3437F3e861ED245F8A869E478c8eb7a03Ac.MINER{GPUIndex}', posix=0)
         print(arg)
         ethminer = subprocess.Popen(arg, stderr=subprocess.STDOUT, stdout=open(ethminerLogName, 'a'))
         
@@ -66,11 +74,25 @@ if is_admin():
 
 
         #Monitor for Two Hours
-        previousLine = "nothing"
-        lastSpeed = 'nothing'
+        previousLine = "nothing\n"
+        lastSpeed = 'nothing\n'
         i = 0
+        previousHashRate = 999999999
         while True:
             i = i + 1
+
+            #Every third cycle check for updated power
+            '''if i % 3 == 0:
+                latestPower = readLastLine(f'{workingDir}\powerLevel.config', 'r')
+                #if power has changed from the applied value, update, and reapply the power setting
+                if latestPower != powerLevel:
+                    powerLevel = latestPower
+                    nvidiaPower = executeSubprocess(f'nvidia-smi -pl {powerLevel} -i {GPUIndex}')
+                    try:
+                        nvidiaPower.communicate(timeout=4)
+                    except subprocess.TimeoutExpired:
+                        nvidiaPower.terminate()'''
+            
             #Get Last Line of the output file
             lastLine = readLastLine(ethminerLogName, 'r')
             # print(lastLine, end="")
@@ -91,10 +113,11 @@ if is_admin():
             
             #Get the current clock, and power settings
             nvidiaSMI = executeSubprocess(f'nvidia-smi -i {GPUIndex} -q')
-            time.sleep(4)
-            output = nvidiaSMI.communicate()
-            time.sleep(1)
-            nvidiaSMI.terminate()
+            try:
+                output = nvidiaSMI.communicate(timeout=4)
+            except subprocess.TimeoutExpired:
+                nvidiaSMI.terminate()
+                output = 'timeout'
             
             
             # Get Power Readings_
@@ -119,7 +142,7 @@ if is_admin():
                 currentMemory = matchMemory.group(0)
             
             if i % 1 == 0:
-                print(f'\nCurrent Speed: {currentSpeed}', file=open(ethminerLogName + '_', 'a'))
+                print(f'Current Speed: {currentSpeed}', file=open(ethminerLogName + '_', 'a'))
                 print(f'lastSpeed: {lastSpeed}')
                 print(f'Last Line: {lastLine}', end='')
                 print(f'previousLine: {previousLine}', end='')
@@ -127,13 +150,32 @@ if is_admin():
                 if i > 10 and i % 2 == 0:
                     if lastLine == previousLine or (currentSpeed == 'NA' and lastSpeed == 'NA'):
                         print('Error restarting subprocess')
+                        ethminer.terminate()
                         break
                     else:
                         previousLine = lastLine
                         lastSpeed = currentSpeed
 
 
-            print(f'Clock: {currentClock}, Memory: {currentMemory}, Power: {currentPower}, Restarts: {restartCounter}\n')
+            if i % 20 == 0:
+                response = requests.get(api_base + f'/miner/:{miner}/worker/:{worker}{GPUIndex}/currentStats')
+                # print(response.json())
+                hashRate = response.json()['data']['currentHashrate']
+                # print(f'Hashrate: {hashRate}')
+                print(f'previousHash: {previousHashRate}')
+                print(f'currentHash: {hashRate}\n')
+                try:
+                    if hashRate < 39000000 and previousHashRate < 39000000:
+                        ethminer.terminate()
+                        break
+                except:
+                    break
+
+                previousHashRate = hashRate
+
+
+            print(f'Clock: {currentClock}, Memory: {currentMemory}, Power: {currentPower}, Restarts: {restartCounter}\n\n')
+            time.sleep(5)
 
 
         ethminer.terminate()
@@ -142,4 +184,4 @@ if is_admin():
 
 else:
     # Re-run the program with admin rights
-    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, f'C:\\Users\ADE\ethWatchdog\ethWatch.py {GPUIndex} {memoryOffset} {powerLevel}', None, 1)
+    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, f'C:\\Users\ADE\ethWatchdog\ethWatch.py {GPUList} {memoryOffset}', None, 1)
